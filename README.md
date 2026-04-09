@@ -45,7 +45,7 @@ Oriel_project/
 ### Prerequisites
 
 - Python 3.8+
-- [Optional] Virtual environment (e.g., `venv`)
+- [Optional] Virtual environment (e.g., `my-env`)
 
 ### Installation
 

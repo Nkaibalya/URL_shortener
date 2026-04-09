@@ -1,0 +1,12 @@
+from pydantic import BaseModel, HttpUrl
+
+class URLCreate(BaseModel):
+    url: HttpUrl
+
+class URLStats(BaseModel):
+    original_url: str
+    short_code: str
+    clicks: int
+
+    class Config:
+        from_attributes = True
